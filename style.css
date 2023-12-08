@@ -1,0 +1,14 @@
+/* styling based on tag */
+h3{
+    color: blueviolet;
+    font-size: 60px;
+}
+
+/* styling based on id */
+#para2{
+    color: red;
+}
+
+.para{
+    font-size: 60px;
+}

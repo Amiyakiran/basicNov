@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Registration form</h1>
+
+   <form>
+        <!--label and input  -->
+        <label for="fn">FirstName :</label>
+        <input id="fn" type="text" placeholder="Please enter firstname"> <br> <br>
+    
+        <label for="sn">SecondName :</label>
+        <input id="sn"  type="text" placeholder="Please enter secondname"> <br><br>
+    
+        <label for="ln">LastName :</label>
+        <input id="ln"  type="text" placeholder="Please enter lastname"> <br> <br>
+    
+        <label for="un">Username :</label>
+        <input id="un" type="text" placeholder="Please enter username"><br> <br>
+    
+        <label for="pswd">Password :</label>
+        <input id="pswd" type="password" placeholder="Please enter password"><br> <br>
+
+        <label for="mail">Email Id : </label>
+        <input id="mail" type="email" placeholder="Please enter the mail id"><br> <br>
+
+        <label for="dob">Date of Birthday</label>
+        <input id="dob" type="date"><br> <br>
+
+        <label for="add">Address</label>
+        <textarea  id="add" cols="50" rows="10"></textarea><br> <br>
+
+        <label for="">Upload your certificate</label>
+        <input type="file"><br> <br>
+
+        <!-- radio -->
+        <label >Gender</label><br> <br>
+        <input name="gender" type="radio">
+        <label>Male</label><br> <br>
+
+        <input  name="gender" type="radio">
+        <label>Female</label><br> <br>
+
+        <input  name="gender" type="radio">
+        <label>Others</label><br> <br>
+
+        <!-- checkbox -->
+        <label>CheckBox</label><br> <br>
+        <input name="gender" type="checkbox">
+        <label>I have bike</label><br> <br>
+
+        <input  name="gender" type="checkbox">
+        <label>I have car</label><br> <br>
+
+        <input  name="gender" type="checkbox">
+        <label>I have Boat</label><br> <br>
+
+        <!-- tag to select items -->
+        <label for="">Choose your subject from the dropdown list</label>
+        <select multiple>
+            <option value="science">science</option>
+            <option value="commerce">commerce</option>
+            <option value="Humanities">Humanities</option>
+        </select><br> <br>
+
+        <!-- type - number -->
+        <label for="">Number of Attempt</label>
+        <input type="number" max="5" min="2">
+
+
+  
+   </form>
+
+    
+</body>
+</html>

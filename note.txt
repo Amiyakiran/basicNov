@@ -1,0 +1,156 @@
+HTML - HyperText Markup Language
+---------------------------------
+- markup Language - Tag based
+- tag - <tagname>
+
+How to create HTML file
+ - name of the file should starts with character
+ - if the name contains more than one word then dont put space between them
+    other add underscore(_) between the words
+ - extension - .html
+
+ basic structure
+ ----------------
+ <html> opening tag
+ <head>
+ <title> tile of html file</title>
+ </head>
+ <body>
+    content
+ </body>
+ </html> - closing tage
+
+ lastest version : HTML5
+
+ how to load basic structure of HTML5
+ 1) html:5
+ 2) shift + 1 => ! then press enter
+
+ Tag in html
+ ------------
+ 1) heading tag 
+     <h1> </h1> - largest tag
+      <h2> </h2>
+       <h3> </h3>
+        <h4> </h4>
+         <h5> </h5>
+          <h6> </h6> - smallest tag
+
+2) paragraph tag
+   <p></p>
+3) link
+     <a></a>
+     href : hyperText Reference
+
+     attribute =  it is used to give additional information about the tag   
+      eg href ,target
+
+4) <!-- comment --> - commemt tag - it increases readability
+    cannot be seen in the output/browser
+     shift + alt + A ( <!--  --> )
+5)image / picture
+ <img >  - only opening tag   
+
+6) horizontal line 
+   <hr/> - self closing tags 
+
+
+7) <figure> - to place images in the webpage - HTML5 updates
+    <figure>
+    <figCaption>
+    </figure>
+
+8) <video> - to place video in the webpage - HTML5 updates    
+
+9)iframe 
+
+10) audio tag - to place audio in the webpage - HTML5 updates  
+
+
+
+CSS - CASCADING STYLE SHEET
+- to give style to html element
+
+different methods of using CSS
+------------------------------
+1) inline css - css properties are place inside the html opening tags
+2) Internal css - css properties are place inside a style tag, and this style tag is place inside the html head tag
+3) External css - create an external file with .css as extension and css properties are mentioned inside this external file 
+                  this external file is linked to the html file using link tag.
+
+    external css is refered because
+       1) can used multiple time
+       2) reduces complexity of the html page
+       3) reduce loading time of html page
+
+ better: external>internal>inline
+ dominace:   inline>internal>external
+
+
+ inline - syntax
+-------------------
+ <tagname style="property:value"></tagname>
+
+
+type selectors
+1) tag selector
+2) id selector - to style uniquely
+3) class selector - to style in group
+4) Universal selector - *
+
+
+css box model
+-------------
+1) border - line drawn around a content
+2) margin - space between border and outer space
+  - margin-top
+  - margin-bottom
+  - margin-left
+  - margin-right
+
+  marign: top right bottom left
+   margin: 30px 40px 10px 20px;
+    margin: top/bottom   left/right
+      margin : 30px 40px
+    top =30
+    right:40
+    bottom=30
+    left=40
+3) padding - space between border and content
+  - padding-top
+  - padding-bottom
+  - padding-left
+  - padding-right
+
+  div - to create division  - cannot be seen by default
+
+
+ <header> - 
+
+ media query
+ -----------
+ - use the website responsive 
+
+ * Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
+syntax
+------
+@media (expression){
+   selector{
+      property:value
+   }
+}
